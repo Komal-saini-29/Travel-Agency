@@ -1,0 +1,1080 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  /* font-family: "Monda", sans-serif; */
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+header {
+  background-image: url(Travel-images/travel--bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+
+  /* filter: invert(100%); */
+}
+
+.nav-brand {
+  margin-left: 5%;
+  padding-top: 2%;
+  font-size: 2rem;
+  font-family: "Merienda", cursive;
+  color: #000000;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-right: 5%;
+}
+
+li {
+  list-style: none;
+  margin-top: -27px;
+}
+
+a {
+  color: #000000;
+  padding: 30px;
+  font-size: 1.3rem;
+}
+a:hover {
+  color: #ffffff;
+  background-color: rgb(156, 151, 151);
+  border-radius: 5px;
+  height: 0px;
+}
+.active {
+  text-decoration: underline;
+}
+
+.h1-home {
+  font-size: 7rem;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+/* ABOUT-US-SECTION */
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.h1-about-us {
+  text-align: center;
+  color: #000000;
+  font-size: 4rem;
+}
+
+.p-about-us {
+  color: black;
+  width: 89%;
+  font-size: 1.3rem;
+  margin-left: 15%;
+  margin-top: 13px;
+}
+.img-right img {
+  height: 60%;
+  width: 45%;
+  float: right;
+  margin-right: 27%;
+  margin-top: 10px;
+  
+ 
+  
+}
+
+.img-right img:hover {
+  box-shadow: 0 16px 16px 0 rgba(39, 38, 38, 0.2);
+  transition: .5s ease;
+ 
+}
+  
+
+/* SECTION-THIRD */
+
+.services-section {
+  background-color: rgb(51, 64, 87);
+  height: 710px;
+  margin-top: -7%;
+  padding: 5px;
+}
+.h1-services {
+  font-size: 3.8rem;
+  margin-left: 20%;
+  padding-top: 1%;
+}
+.p-services {
+  font-size: 1.4rem;
+  text-align: left;
+  width: 42%;
+  margin-left: 20%;
+  padding-top: 0.3%;
+}
+.services-flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* OUR-TRAVELS */
+
+.our-travels {
+  margin-top: 3%;
+}
+.travel-row-1,
+.travel-row-2,
+.travel-row-3 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+}
+.col-1 img,
+.col-2 img,
+.col-3 img {
+  height: 83%;
+  width: 27%;
+}
+
+/* GUIDE-SECTION */
+
+.guide-section {
+  background-color: rgb(51, 64, 87);
+  height: 85%;
+}
+.guide-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.h1-guide {
+  font-size: 5rem;
+  margin-left: 20%;
+  display: inline-block;
+  height: 20%;
+  width: 20%;
+}
+.p-guide {
+  width: 30%;
+  height: 5%;
+  margin-left: 10%;
+  margin-top: 70px;
+  font-size: 1.4rem;
+}
+
+/* FIXME */
+.contact-us-button {
+  background-color: white;
+  border: white;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10px;
+  font-size: 12px;
+  margin-left: 50%;
+  
+  
+  transition: 0.3s;
+  
+  /* font-size: 0.885rem; */
+  margin: -95% auto 35px 50%;
+}
+.contact-us-button:hover {
+  background-color: rgb(156, 151, 151);
+}
+
+/* CLIENT-SECTION */
+
+.h1-client-section {
+  color: black;
+  text-align: right;
+  margin-left: 55.2%;
+  width: 30%;
+  font-size: 4rem;
+}
+
+.p-client-section {
+  color: black;
+  text-align: right;
+  margin-left: 55.2%;
+  width: 30%;
+  font-size: 1.4rem;
+}
+.flex-row-1,
+.flex-row-2 {
+  display: flex;
+  flex-direction: row;
+}
+.flex-row-1 img {
+  height: 50%;
+  width: 50%;
+}
+.flex-row-2 img {
+  height: 50%;
+  width: 50%;
+}
+
+.flex-row-3 {
+  background-image: url(Travel-images/dark-bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  margin-top: 0%;
+
+  display: flex;
+  flex-direction: row;
+}
+.image-left {
+  margin-top: 3%;
+  margin-left: 20%;
+
+  height: 75%;
+  width: 19%;
+}
+.cont-1 {
+  background-color: rgb(51, 50, 50);
+  height: 75%;
+  width: 25%;
+  margin-top: 3%;
+  /* margin-left: 39.4%;  */
+}
+.h1-cont-1 {
+  margin-left: 5%;
+  font-size: 2.8rem;
+  padding-top: 8%;
+}
+.p-cont-1 {
+  margin-left: 5%;
+  font-size: 1.5rem;
+}
+.h2-cont-1 {
+  margin-left: 5%;
+  font-size: 1rem;
+}
+.image-right {
+  margin-top: 3%;
+
+  height: 75%;
+  width: 14%;
+}
+
+/* FOOTER-SECTION */
+
+footer {
+  text-align: center;
+  font-size: 1.8rem;
+  background-color: rgb(47, 46, 46);
+  color: white;
+  margin-top: -4px;
+  height: 30%;
+}
+
+/* MEDIA-QUERY */
+@media (min-width: 1500px) and (max-width: 1650px) {
+  /* Home-SECTION */
+
+  .h1-home {
+    font-size: 6rem;
+    margin-left: 10%;
+    width: 35%;
+    margin-top: 13%;
+  }
+  /* About-Us-SECTION */
+  .p-about-us {
+    color: black;
+    width: 130%;
+    font-size: 1.4rem;
+    margin-left: 15%;
+    margin-top: 4px;
+  }
+  .img-right img {
+    height: 75%;
+    width: 55%;
+    float: right;
+    margin-right: 27%;
+    margin-top: 10px;
+  }
+  .img-right img:hover {
+    box-shadow: 0 16px 16px 0 rgba(39, 38, 38, 0.2);
+  }
+
+  /* Services-SECTION */
+  .h1-services {
+    font-size: 3.8rem;
+    margin-left: 16.5%;
+    padding-top: 1%;
+  }
+  .p-services {
+    font-size: 1.4rem;
+    text-align: left;
+    width: 42%;
+    margin-left: 16.5%;
+    padding-top: 0.3%;
+  }
+  /* Guide-SECTION */
+  .h1-guide {
+    font-size: 3.8rem;
+    margin-left: 16%;
+    height: 15%;
+    width: 30%;
+  }
+  .p-guide {
+    width: 35%;
+    height: 5%;
+    margin-left: 5.5%;
+    margin-top: 50px;
+    font-size: 1.4rem;
+  }
+  .contact-us-button {
+    margin-left: 51.7%;
+    margin-top: -12px;
+    transition: 0.3s;
+  }
+
+  /* Client-SECTION */
+  .h1-client-section {
+    margin-left: 40%;
+    margin-top: -2px;
+    width: 45%;
+    font-size: 3.8rem;
+  }
+
+  .p-client-section {
+    margin-left: 40%;
+    width: 45%;
+  }
+  .flex-row-3 {
+    height: 60vh;
+  }
+
+  .image-left {
+    margin-top: 4.5%;
+    margin-left: 15%;
+
+    height: 66%;
+    width: 19%;
+  }
+  .cont-1 {
+    margin-top: 4%;
+    width: 30%;
+    height: 66%;
+    margin-top: 4.5%;
+
+    /* margin-left: 39.4%;  */
+  }
+  .h1-cont-1 {
+    padding-top: 2%;
+  }
+
+  .image-right {
+    margin-top: 4%;
+    width: 18%;
+    height: 66%;
+    margin-top: 4.5%;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1350px) {
+  /* Home-SECTION */
+
+  .h1-home {
+    font-size: 5.5rem;
+    margin-top: 20%;
+  }
+  /* About-Us-SECTION */
+  .p-about-us {
+    width: 185%;
+    font-size: 1.4rem;
+    margin-left: 15%;
+    margin-top: 4px;
+  }
+  .img-right img {
+    height: 80%;
+    width: 68%;
+    margin-right: 22%;
+    margin-top: 7px;
+  }
+
+  /* Services-SECTION */
+  .h1-services {
+    font-size: 3.8rem;
+    margin-left: 16.5%;
+    padding-top: 1%;
+  }
+  .p-services {
+    font-size: 1.4rem;
+    text-align: left;
+    width: 48%;
+    margin-left: 16.5%;
+    padding-top: 0.3%;
+  }
+  /* Guide-SECTION */
+  .h1-guide {
+    font-size: 3.8rem;
+    margin-left: 16%;
+    height: 15%;
+    width: 30%;
+  }
+  .p-guide {
+    width: 35%;
+    height: 5%;
+    margin-left: 5.5%;
+    margin-top: 50px;
+    font-size: 1.4rem;
+  }
+  .contact-us-button {
+    margin-left: 51.6%;
+    transition: 0.3s;
+  }
+
+  /* Client-SECTION */
+  .h1-client-section {
+    margin-left: 40%;
+    margin-top: -2px;
+    width: 45%;
+    font-size: 3.8rem;
+  }
+
+  .p-client-section {
+    margin-left: 40%;
+    width: 45%;
+  }
+  .flex-row-3 {
+    height: 60vh;
+  }
+
+  .image-left {
+    margin-top: 7%;
+    margin-left: 15%;
+
+    height: 65%;
+    width: 19%;
+  }
+  .cont-1 {
+    margin-top: 4%;
+    width: 30%;
+    height: 65%;
+    margin-top: 7%;
+
+    /* margin-left: 39.4%;  */
+  }
+
+  .h1-cont-1 {
+    padding-top: 10%;
+    font-size: 2rem;
+  }
+  .p-cont-1 {
+    font-size: 1.3rem;
+  }
+
+  .image-right {
+    margin-top: 4%;
+    width: 18%;
+    height: 65%;
+    margin-top: 7%;
+  }
+}
+@media (min-width: 1350px) and (max-width: 1500px) {
+  /* Home-SECTION */
+
+  .h1-home {
+    font-size: 5.5rem;
+    margin-top: 13%;
+  }
+  /* About-Us-SECTION */
+  .p-about-us {
+    width: 185%;
+    font-size: 1.4rem;
+    margin-left: 15%;
+    margin-top: 4px;
+  }
+  .img-right img {
+    height: 80%;
+    width: 68%;
+    margin-right: 22%;
+    margin-top: 7px;
+  }
+
+  /* Services-SECTION */
+  .h1-services {
+    font-size: 3.8rem;
+    margin-left: 16.5%;
+    padding-top: 1%;
+  }
+  .p-services {
+    font-size: 1.4rem;
+    text-align: left;
+    width: 48%;
+    margin-left: 16.5%;
+    padding-top: 0.3%;
+  }
+  /* Guide-SECTION */
+  .h1-guide {
+    font-size: 3.8rem;
+    margin-left: 16%;
+    height: 15%;
+    width: 30%;
+  }
+  .p-guide {
+    width: 35%;
+    height: 5%;
+    margin-left: 5.5%;
+    margin-top: 50px;
+    font-size: 1.4rem;
+  }
+  .contact-us-button {
+    transition: 0.3s;
+    margin-left: 51.6%;
+  }
+
+  /* Client-SECTION */
+  .h1-client-section {
+    margin-left: 40%;
+    margin-top: -2px;
+    width: 45%;
+    font-size: 3.8rem;
+  }
+
+  .p-client-section {
+    margin-left: 40%;
+    width: 45%;
+  }
+  .flex-row-3 {
+    height: 60vh;
+  }
+
+  .image-left {
+    margin-top: 7%;
+    margin-left: 15%;
+
+    height: 65%;
+    width: 19%;
+  }
+  .cont-1 {
+    margin-top: 4%;
+    width: 30%;
+    height: 65%;
+    margin-top: 7%;
+
+    /* margin-left: 39.4%;  */
+  }
+
+  .h1-cont-1 {
+    padding-top: 10%;
+    font-size: 2rem;
+  }
+  .p-cont-1 {
+    font-size: 1.3rem;
+  }
+
+  .image-right {
+    margin-top: 4%;
+    width: 18%;
+    height: 65%;
+    margin-top: 7%;
+  }
+}
+@media (min-width: 1650px) and (max-width: 1750px) {
+  /* Home-SECTION */
+
+  .h1-home {
+    font-size: 5.5rem;
+    margin-top: 11%;
+  }
+  /* About-Us-SECTION */
+  .p-about-us {
+    width: 135%;
+    font-size: 1.4rem;
+    margin-left: 15%;
+    margin-top: 4px;
+  }
+  .img-right img {
+    height: 65%;
+    width: 50%;
+    margin-right: 22%;
+    margin-top: 7px;
+  }
+
+  /* Services-SECTION */
+  .h1-services {
+    font-size: 3.8rem;
+    margin-left: 16.5%;
+    padding-top: 1%;
+  }
+  .p-services {
+    font-size: 1.4rem;
+    text-align: left;
+    width: 48%;
+    margin-left: 16.5%;
+    padding-top: 0.3%;
+  }
+  /* Guide-SECTION */
+  .h1-guide {
+    font-size: 3.8rem;
+    margin-left: 16%;
+    height: 15%;
+    width: 30%;
+  }
+  .p-guide {
+    width: 35%;
+    height: 5%;
+    margin-left: 5.5%;
+    margin-top: 50px;
+    font-size: 1.4rem;
+  }
+  .contact-us-button {
+    margin-left: 51.6%;
+  }
+
+  /* Client-SECTION */
+  .h1-client-section {
+    margin-left: 40%;
+    margin-top: -2px;
+    width: 45%;
+    font-size: 3.8rem;
+  }
+
+  .p-client-section {
+    margin-left: 40%;
+    width: 45%;
+  }
+  .flex-row-3 {
+    height: 60vh;
+  }
+
+  .image-left {
+    margin-top: 4%;
+    margin-left: 18%;
+
+    height: 65%;
+    width: 19%;
+  }
+  .cont-1 {
+    margin-top: 4%;
+    width: 25%;
+    height: 65%;
+
+    /* margin-left: 39.4%;  */
+  }
+
+  .h1-cont-1 {
+    padding-top: 2%;
+    font-size: 2rem;
+  }
+  .p-cont-1 {
+    font-size: 1.3rem;
+  }
+
+  .image-right {
+    margin-top: 4%;
+    width: 18%;
+    height: 65%;
+    margin-top: 4%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+  /* Home-SECTION */
+  .nav-brand {
+    font-size: 2rem;
+  }
+  a {
+    font-size: 1.4rem;
+  }
+  .h1-home {
+    font-size: 4.3rem;
+    margin-top: 14%;
+  }
+  /* About-Us-SECTION */
+  .h1-about-us {
+    margin-top: -4%;
+  }
+  .p-about-us {
+    width: 365%;
+    font-size: 1.3rem;
+    margin-left: 7%;
+    margin-top: 4px;
+  }
+  .img-right img {
+    height: 72.5%;
+    width: 75%;
+    margin-right: 16%;
+    margin-top: 7px;
+  }
+
+  /* Services-SECTION */
+  .h1-services {
+    font-size: 2.8rem;
+    margin-left: 16.5%;
+    padding-top: 1%;
+  }
+  .p-services {
+    font-size: 1.3rem;
+    width: 55%;
+    margin-left: 16.5%;
+  }
+  /* Guide-SECTION */
+  .h1-guide {
+    font-size: 2.8rem;
+    margin-left: 16%;
+    height: 13%;
+    width: 32%;
+  }
+  .p-guide {
+    width: 35%;
+    height: 5%;
+    margin-left: 5.5%;
+    margin-top: 35px;
+    font-size: 1.3rem;
+  }
+  .contact-us-button {
+    margin-left: 53.5%;
+    margin-top: 2%;
+  }
+
+  /* Client-SECTION */
+  .h1-client-section {
+    margin-left: 40%;
+    margin-top: -2px;
+    width: 45%;
+    font-size: 2.8rem;
+  }
+
+  .p-client-section {
+    margin-left: 40%;
+    width: 45%;
+    font-size: 1.3rem;
+  }
+  .flex-row-3 {
+    height: 65vh;
+  }
+
+  .image-left {
+    margin-top: 6%;
+    margin-left: 11.5%;
+
+    height: 65%;
+    width: 19%;
+  }
+  .cont-1 {
+    margin-top: 6%;
+    width: 35%;
+    height: 65%;
+
+    /* margin-left: 39.4%;  */
+  }
+
+  .h1-cont-1 {
+    padding-top: 2%;
+    font-size: 2rem;
+  }
+  .p-cont-1 {
+    font-size: 1.3rem;
+  }
+
+  .image-right {
+    margin-top: 6%;
+    width: 21%;
+    height: 65%;
+  }
+}
+
+@media (min-width: 1220px) and (max-width: 1300px) {
+  /* About-Us-SECTION */
+
+  .p-about-us {
+    width: 225%;
+    font-size: 1.3rem;
+    margin-left: 7%;
+    margin-top: 4px;
+  }
+  .img-right img {
+    height: 72.5%;
+    width: 60%;
+  }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  /* Home-SECTION */
+  .nav-brand {
+    font-size: 2rem;
+  }
+  a {
+    font-size: 1.4rem;
+    padding: 2%;
+  }
+  .h1-home {
+    font-size: 3.6rem;
+    margin-top: 25%;
+  }
+  /* About-Us-SECTION */
+  .h1-about-us {
+    margin-top: -6%;
+    font-size: 2.6rem;
+  }
+  .p-about-us {
+    width: 345%;
+    font-size: 1rem;
+    margin-left: 7%;
+    margin-top: 4px;
+  }
+  .img-right img {
+    height: 69%;
+    width: 75%;
+    margin-right: 16%;
+    margin-top: 7px;
+  }
+
+  /* Services-SECTION */
+
+  .services-section {
+    background-color: rgb(47, 46, 46);
+    height: 550px;
+    margin-top: -5%;
+  }
+  .h1-services {
+    font-size: 2.6rem;
+    margin-left: 16.5%;
+    padding-top: 1%;
+  }
+  .p-services {
+    font-size: 1rem;
+    width: 55%;
+    margin-left: 16.5%;
+  }
+  .fa-subway,
+  .fa-swimmer,
+  .fa-car,
+  .fa-mountain {
+    font-size: 2.8rem;
+  }
+  .subway,
+  .swimmer,
+  .car,
+  .mountain {
+    font-size: 1.8rem;
+  }
+
+  /* Guide-SECTION */
+  .h1-guide {
+    font-size: 2.6rem;
+    margin-left: 16%;
+    height: 13%;
+    width: 32%;
+  }
+  .p-guide {
+    width: 35%;
+    height: 5%;
+    margin-left: 5.5%;
+    margin-top: 35px;
+    font-size: 1rem;
+  }
+  .contact-us-button {
+    margin-left: 53.5%;
+    margin-top: 2%;
+    padding: 6px;
+    font-size: 1rem;
+  }
+
+  /* Client-SECTION */
+  .h1-client-section {
+    margin-left: 40%;
+    margin-top: -2px;
+    width: 45%;
+    font-size: 2.6rem;
+  }
+
+  .p-client-section {
+    margin-left: 40%;
+    width: 45%;
+    font-size: 1rem;
+  }
+  .flex-row-3 {
+    height: 55vh;
+  }
+
+  .image-left {
+    margin-top: 8%;
+    margin-left: 11.5%;
+
+    height: 56%;
+    width: 19%;
+  }
+  .cont-1 {
+    margin-top: 8%;
+    width: 35%;
+    height: 56%;
+
+    /* margin-left: 39.4%;  */
+  }
+
+  .h1-cont-1 {
+    padding-top: 2%;
+    font-size: 1.3rem;
+  }
+  .p-cont-1 {
+    font-size: 1rem;
+  }
+
+  .image-right {
+    margin-top: 8%;
+    width: 21%;
+    height: 56%;
+  }
+}
+
+@media (min-width: 890px) and (max-width: 1000px) {
+  /* About-Us-SECTION */
+  .h1-about-us {
+    margin-top: -6%;
+    font-size: 2.6rem;
+  }
+  .p-about-us {
+    width: 285%;
+
+    font-size: 1.2rem;
+    margin-left: 7%;
+    margin-top: 4px;
+  }
+  .img-right img {
+    height: 69%;
+    width: 75%;
+    margin-right: 16%;
+    margin-top: 7px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  /* Home-SECTION */
+  .nav-brand {
+    font-size: 1.6rem;
+  }
+  a {
+    font-size: 1rem;
+    padding: 2%;
+  }
+  .h1-home {
+    font-size: 3.4rem;
+    margin-top: 40%;
+  }
+  /* About-Us-SECTION */
+  .h1-about-us {
+    margin-top: -6%;
+    font-size: 2.6rem;
+  }
+  .p-about-us {
+    width: 305%;
+    font-size: 0.7rem;
+    margin-left: 7%;
+    margin-top: 4px;
+  }
+  .img-right img {
+    height: 69%;
+    width: 75%;
+    margin-right: 16%;
+    margin-top: 7px;
+  }
+
+  /* Services-SECTION */
+
+  .services-section {
+    background-color: rgb(47, 46, 46);
+    height: 430px;
+    margin-top: -5%;
+  }
+  .h1-services {
+    font-size: 2.4rem;
+    margin-left: 16.5%;
+    padding-top: 1%;
+  }
+  .p-services {
+    font-size: 0.7rem;
+    width: 55%;
+    margin-left: 16.5%;
+  }
+  .fa-subway,
+  .fa-swimmer,
+  .fa-car,
+  .fa-mountain {
+    font-size: 2.4rem;
+  }
+  .subway,
+  .swimmer,
+  .car,
+  .mountain {
+    font-size: 1.4rem;
+  }
+
+  /* Guide-SECTION */
+  .h1-guide {
+    font-size: 2.4rem;
+    margin-left: 16%;
+    width: 32%;
+  }
+  .p-guide {
+    width: 35%;
+    height: 5%;
+    margin-left: 5.5%;
+    margin-top: 35px;
+    font-size: 0.8rem;
+  }
+  .contact-us-button {
+    margin-left: 53.5%;
+    margin-top: -10%;
+    padding: 6px;
+    font-size: 0.6rem;
+  }
+
+  /* Client-SECTION */
+  .h1-client-section {
+    margin-left: 40%;
+    margin-top: -2px;
+    width: 45%;
+    font-size: 2.4rem;
+  }
+
+  .p-client-section {
+    margin-left: 40%;
+    width: 45%;
+    font-size: 0.7rem;
+  }
+  .flex-row-3 {
+    height: 48vh;
+  }
+
+  .image-left {
+    margin-top: 10%;
+    margin-left: 11.5%;
+
+    height: 56%;
+    width: 19%;
+  }
+  .cont-1 {
+    margin-top: 10%;
+    width: 35%;
+    height: 56%;
+
+    /* margin-left: 39.4%;  */
+  }
+
+  .h1-cont-1 {
+    padding-top: 2%;
+    font-size: 1rem;
+  }
+  .p-cont-1 {
+    font-size: 0.7rem;
+  }
+
+  .image-right {
+    margin-top: 10%;
+    width: 21%;
+    height: 56%;
+  }
+}
